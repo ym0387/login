@@ -8,7 +8,7 @@ def login():  # 自動ログイン
     email = 'メールアドレス'
     pw = 'パスワード'
 
-    driver = webdriver.Chrome(executable_path='C:\\Users\\Yusuke Morioka\\Desktop\\chromedriver_win32\\chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='')  # Chromeのpathを""内に記載
     driver.get(url)
 
     # ID/PASSを入力
